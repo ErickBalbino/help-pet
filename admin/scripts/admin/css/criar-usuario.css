@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: #4998D1;
+    margin-bottom: 40px;
+}
+
+header h1{
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+header .menu nav{
+    display: flex;
+}
+
+header .menu nav input{
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.2s ease-in-out color;
+}
+
+header .menu nav input:hover{
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+header .logout i{
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    transition: 0.2s ease-in-out color;
+}
+
+header .logout i:hover{
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+.container_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_form form{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form label span{
+    padding: 5px 0px;
+}
+
+form label input{
+    border: 1px solid #c7c7c7;
+    height: 35px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: transparent;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.button input{
+    background-color: #008000;
+    color: #fff;
+    font-size: 1.05rem;
+    width: 40%;
+    border: transparent;
+    border-radius: 5px;
+    outline: transparent;
+    height: 30px;
+    transition: 0.2s ease-in-out background-color;
+}
+
+.button input:hover{
+    cursor: pointer;
+    background-color: #005f00;
+}
+
+
+
+@media (max-width: 768px){
+    header .menu{
+        overflow-x: scroll;
+        padding: 10px 0px;
+    }
+}
+
+
